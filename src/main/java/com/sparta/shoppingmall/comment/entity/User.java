@@ -8,10 +8,10 @@ import lombok.Getter;
 
 @Entity
 @Getter
+//임시 User Entity
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    
-    private Long id;
 
+    private Long id;
 }
